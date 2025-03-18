@@ -1,0 +1,73 @@
+.filters-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.filters-container select,
+.filters-container input {
+  width: auto;
+  min-width: 180px;
+}
+
+.filters-container .btn {
+  white-space: nowrap;
+}
+
+/* Botões de navegação lateral */
+.nav-button {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 12px 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.6;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ajustando a posição das setas */
+.nav-button.left {
+  left: 20px;
+}
+
+.nav-button.right {
+  right: 20px;
+}
+
+/* Aumenta a seta quando o usuário passa o mouse */
+.nav-button:hover {
+  opacity: 1;
+  font-size: 2.5rem;
+  padding: 16px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50%) scale(0.8);
+  }
+  to {
+    opacity: 0.6;
+    transform: translateY(-50%) scale(1);
+  }
+}
+
+.nav-button {
+  animation: fadeIn 0.3s ease-in-out;
+}

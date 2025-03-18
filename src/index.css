@@ -1,0 +1,58 @@
+:root {
+  --background-color-light: #f8f9fa;
+  --background-color-dark: #121212;
+  --card-bg-light: #ffffff;
+  --card-bg-dark: #1a1a1a;
+  --card-border-light: #e0e0e0;
+  --card-border-dark: #333;
+  --text-color-light: #212529;
+  --text-color-dark: #e0e0e0;
+  --primary-color: #007bff;
+  --shadow-light: rgba(0, 0, 0, 0.1);
+  --shadow-dark: rgba(255, 255, 255, 0.1);
+  --border-radius: 12px;
+}
+
+/* Ajuste de layout para garantir alinhamento */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-custom {
+  background: var(--card-bg);
+  color: var(--text-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0px 4px 8px var(--shadow-color);
+  border: 1px solid var(--card-border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card-custom:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 12px var(--shadow-color);
+}
+
+/* Garantir que a imagem fique alinhada */
+.card-custom img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+}
+
+/* Bot�o alinhado */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
