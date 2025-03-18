@@ -32,7 +32,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:
 
 ```
 git clone https://github.com/seu-usuario/rick-morty-explorer.git
-cd rick-morty-explorer
+cd Rick-e-Morty
 ```
 
 ### 🔹 2. Instale as dependências:
@@ -53,5 +53,5 @@ npm run start
 
 ## 📜 Licença
 
-Este projeto está sob a licença **MIT**.
+Este projeto está sob a licença **MIT**. Veja o arquivo [`LICENSE`](./LICENSE) para mais detalhes.
 ```
