@@ -4,7 +4,7 @@ Projeto em React + TypeScript para explorar os personagens da série **Rick and 
 
 ## 📸 Demonstração
 
-🔗 **[Acesse o site](https://seu-projeto.vercel.app/)**
+🔗 **[Acesse o site](https://rick-e-morty-mauve.vercel.app/)**
 
 ## 📋 Funcionalidades
 
