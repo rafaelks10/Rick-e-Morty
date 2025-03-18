@@ -53,5 +53,6 @@ npm run start
 
 ## 📜 Licença
 
-Este projeto está sob a licença **MIT**. Veja o arquivo [`LICENSE`](./LICENSE) para mais detalhes.
+Este projeto está sob a licença **MIT**. Você pode copiar, modificar e distribuir este código livremente, desde que mantenha a atribuição ao autor original.
+
 ```
