@@ -31,7 +31,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:
 ### 🔹 1. Clone o repositório:
 
 ```
-git clone https://github.com/seu-usuario/rick-morty-explorer.git
+git clone https://github.com/rafaelks10/rick-morty-explorer.git
 cd Rick-e-Morty
 ```
 
